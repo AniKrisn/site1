@@ -3,10 +3,16 @@ body {
     background-color: #fef8cfc1;
 }
 
-.links {
+.menu {
     display: flex;
-    justify-content: flex-end;
-    padding: 5vh 10vh;
+    justify-content: center;
+    list-style: none;
+    font-size: large;
+    font-family: 'Lucida Sans Typewriter', 'Courier New', Courier, monospace;
+    margin-top: 10vh;
 }
 
-
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+}
