@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: #faec9bc3;
+    background-color: #faeea8c3;
+    opacity: 90%;
 }
 
 .menu {
@@ -10,7 +11,7 @@ body {
     font-size: large;
     font-family: 'Lucida Sans Typewriter', 'Courier New', Courier, monospace;
     margin-top: 10vh;
-    color: rgba(0, 0, 0, 0.562);
+    color: rgba(0, 0, 0, 0.705);
 }
 
 .menu ul {
@@ -22,7 +23,7 @@ body {
     list-style-type: none;
     text-align: center;
     text-decoration: none;
-    color: green;
+    color: rgba(0, 128, 0, 0.729);
 }
 
 .menu ul .title {
