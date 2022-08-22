@@ -20,6 +20,14 @@ body {
     text-align: center;
 }
 
+.menu ul .me a {
+    color: rgba(168, 28, 28, 0.784);
+}
+
+.menu ul .outbound a {
+    color: rgb(156, 84, 16);
+}
+
 .menu ul a {
     list-style-type: none;
     text-align: center;
@@ -44,3 +52,4 @@ p {
     font-size: large;
     text-align: center;
 }
+
