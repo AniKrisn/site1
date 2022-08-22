@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: #fef8cfc1;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5vh 10vh;
+}
+
+
