@@ -8,8 +8,9 @@ body {
     display: flex;
     justify-content: center;
     list-style: none;
-    font-size: large;
-    font-family: 'Lucida Sans Typewriter', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px #00000038;
+    font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter';
     margin-top: 10vh;
     color: rgba(0, 0, 0, 0.705);
 }
