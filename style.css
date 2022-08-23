@@ -9,8 +9,8 @@ body {
     justify-content: center;
     list-style: none;
     font-size: 20px;
-    text-shadow: 0.5px 0.5px #00000038;
-    font-family: 'Courier New', 'Courier', 'Lucida Sans Typewriter';
+    font-family:'Courier New', 'Courier', 'Lucida Sans Typewriter';
+    text-shadow: 0.5px 0.5px;
     margin-top: 10vh;
     color: rgba(0, 0, 0, 0.705);
 }
@@ -40,6 +40,11 @@ body {
     padding-bottom: 3vh;
 }
 
+.menu ul .dot {
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: 1px 1px;
+}
+
 .menu ul img {
     max-height: 150px;
     transform: translateX(-4px);
@@ -49,7 +54,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 20vh;
-    font-family: 'Lucida Sans Typewriter', 'Courier New', Courier, monospace;
+    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
 }
