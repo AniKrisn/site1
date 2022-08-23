@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #faf4d0c3;
+    background-color: #faf4d0da;
     opacity: 90%;
 }
 
@@ -18,12 +18,12 @@ body {
 .menu ul {
     list-style-type: none;
     text-align: center;
-    padding: 10px 120px 60px 120px;
-    background: rgba(251, 242, 188, 0.53);
+    padding: 10px 110px 90px 110px;
+    background: rgba(251, 242, 188, 0.63);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.7px);
-    -webkit-backdrop-filter: blur(2.7px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.085);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(251, 242, 188, 0.25);
 }
 
