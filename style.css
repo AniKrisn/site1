@@ -74,17 +74,20 @@ p {
     text-align: center;
 }
 
-.centre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.books-text, .site-text, .explanation {
     font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
 }
 
-.centre a {
-    margin-top: 2px;
+.site-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.site-text #container a {
+    margin-top: 5px;
     text-decoration: none;
     color: brown;
 }
