@@ -65,3 +65,21 @@ p {
     text-align: center;
 }
 
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
+    font-size: large;
+    text-align: center;
+}
+
+.books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1vh;
+    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
+    font-size: large;
+    text-align: center;
+}
