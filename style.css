@@ -18,7 +18,7 @@ body {
 .menu ul {
     list-style-type: none;
     text-align: center;
-    padding: 10px 110px 90px 110px;
+    padding: 10px 90px 70px 90px;
     background: rgba(251, 242, 188, 0.63);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.085);
@@ -74,12 +74,15 @@ p {
     text-align: center;
 }
 
-.books {
+.centre-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 1vh;
     font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
+}
+
+.centre-text a {
+    margin-top: 2px;
 }
