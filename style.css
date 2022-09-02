@@ -91,3 +91,11 @@ p {
     text-decoration: none;
     color: brown;
 }
+
+.img {
+    font-size: 12px;
+}
+
+.img img {
+    max-height: 50px;
+}
