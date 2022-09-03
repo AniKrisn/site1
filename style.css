@@ -107,5 +107,6 @@ p {
 }
 
 .img-container img {
-    box-shadow: 1px 1px 1px rgba(163, 138, 10, 0.703);
+    box-shadow: 1px 1.5px 1px rgba(163, 138, 10, 0.703);
+    border-radius: 1%;
 }
