@@ -99,3 +99,13 @@ p {
 .img img {
     max-height: 50px;
 }
+
+.img-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.img-container img {
+    box-shadow: 1px 1px 1px rgba(163, 138, 10, 0.703);
+}
