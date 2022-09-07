@@ -21,9 +21,7 @@ body {
     padding: 10px 90px 70px 90px;
     background: rgba(251, 242, 188, 0.63);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.085);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.085);
     border: 1px solid rgba(251, 242, 188, 0.25);
 }
 
