@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #faf4d0da;
+    background-color: rgba(51, 51, 51, 0.93);
     opacity: 90%;
 }
 
@@ -19,25 +19,25 @@ body {
     list-style-type: none;
     text-align: center;
     padding: 10px 90px 70px 90px;
-    background: rgba(251, 242, 188, 0.63);
-    border-radius: 16px;
+    background: #37df8efd;
+    border-radius: 25px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.085);
     border: 1px solid rgba(251, 242, 188, 0.25);
 }
 
 .menu ul .me a {
-    color: rgba(168, 28, 28, 0.784);
+    color: rgba(51, 51, 51, 0.93);
 }
 
 .menu ul .outbound a {
-    color: rgb(156, 84, 16);
+    color: rgba(51, 51, 51, 0.93);
 }
 
 .menu ul a {
     list-style-type: none;
     text-align: center;
     text-decoration: none;
-    color: rgba(0, 128, 0, 0.729);
+    color: rgba(51, 51, 51, 0.93);
 }
 
 .menu ul .title {
