@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap');
+
 body {
     margin: 0;
     background-color: #faf4d0da;
@@ -9,8 +11,8 @@ body {
     justify-content: center;
     list-style: none;
     font-size: 20px;
-    font-family:'Courier New', 'Courier', 'Lucida Sans Typewriter';
-    text-shadow: 0.5px 0.5px;
+    font-family: 'IM Fell DW Pica', 'Courier New', 'Courier', 'Lucida Sans Typewriter';
+    text-shadow: 0.1px 0.1px;
     margin-top: 10vh;
     color: rgba(0, 0, 0, 0.705);
 }
@@ -58,7 +60,7 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 20vh;
-    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
+    font-family: 'IM Fell DW Pica', 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
 }
@@ -67,24 +69,34 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 2vh;
-    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
+    font-family: 'IM Fell DW Pica', 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
 }
 
 .books-text, .site-text, .explanation {
-    font-family: 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
+    font-family: 'IM Fell DW Pica', 'Courier New', 'Courier', 'monospace', 'Lucida Sans Typewriter';
     font-size: large;
     text-align: center;
 }
 
 .site-text {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
     display: flex;
-    justify-content: space-around;
-    padding: 100px;
+  
+    -webkit-justify-content: space-around; 
+    justify-content: space-around; 
+  
+    width: 100%;
+    flex-flow: row wrap;
 }
 
-.site-text #container a {
+.site-text .container a {
     margin-top: 5px;
     text-decoration: none;
     color: brown;
